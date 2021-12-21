@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food Application</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="put imp">
+        <meta name="author" content="put name of the name">
+        <meta name="description" content="one line description">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <link rel="stylesheet" href="signin.css">
+        <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+        <style>
+            .error{
+                color: red;
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        <nav class="nav-container">
+            <div class="nav">
+                <img src="https://thumbs.dreamstime.com/b/letter-d-green-logo-template-alphabet-logotype-design-designs-140006056.jpg" class="image1"/>
+                 <span class="heading">Dolphin</span>
+            </div>
+            <ol class="ol-container">
+                <li><a class="a1" href="index.html">Home</a></li>
+                <li><a class="a1 strtfretrail" href="signin.html">Book Table</a></li>
+                <li><a class="a1" href="aboutus.html">About us</a></li>
+                <li><a class="a1" href="faq.html">FAQ'S</a></li>
+            </ol>
+        </nav>
+    </header>
+    <div class="bg-container">
+        <div>
+        <h1 class="header3">Reserve Your Table Today</h1>
+        <form action="index.html" onsubmit="return validation()" novalidate>
+            <div class="form-div">
+            <table>
+                <tr>
+                    <td><label for="fname">Firstname</label></td>
+                    <td><input onblur="validation1()" id="fname" type="text" name="pname" placeholder="firstname"></td>
+                </tr>
+                <tr><td></td><td class="error" id="error1"></td></tr>
+                <tr>
+                    <td><label for="mname">Middilename</label></td>
+                    <td><input id="mname" type="text" name="pname"  placeholder="middilename(optional)" ></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Lastname</label></td>
+                    <td><input onblur="validation2()" id="lname" type="text" name="pname" placeholder="lastname" ></td>
+                </tr>
+                <tr><td></td><td class="error" id="error3"></td></tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender" id="g1" onchange="validation3()"><label for="g1">Male</label>
+                        <input type="radio" name="gender" id="g2" onchange="validation3()"><label for="g2">Female</label>
+                        <input type="radio" name="gender" id="g3" onchange="validation3()"><label for="g3">Others</label>
+                    </td>
+                </tr>
+                <tr><td></td><td class="error" id="error4"></td></tr>
+                
+                <tr>
+                    <td><label >Mobile Number</label></td>
+                    <td><input onblur="validation4()" type="text" name="num" id="num1" minlength="1" maxlength="10" placeholder="9876543210" required></td>
+                </tr>
+                <tr><td></td><td class="error" id="error6"></td></tr>
+                <tr>
+                    <td><label id="num1">Email</label></td>
+                    <td><input onblur="validation5()" type="email"  id="mail" placeholder="abc@gmail.com" required></td>
+                </tr>
+                <tr><td></td><td class="error" id="error7"></td></tr>
+                <tr><td></td>
+                    <td><input type="submit" value="submit">
+                    <input type="reset" value="Clear"></td>
+                </tr>
+            </table>
+        </div>
+        </form>
+    </div>
+    </div>
+</section>
+<footer class="footer-section">
+    <div class="footer-container">
+        <div class="footer1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6TEip1moaJDrrH2uImELmPBqa-ezuo81DSA&usqp=CAU" alt="resturant-image" class="image2"/>
+            
+        </div>
+        <div class="quick-footer">
+            <h2>Quick Links</h2>
+            <a href="index.html" class="quick-links">Home</a>
+            <a href="signin.html" class="quick-links">Sigin In</a>
+            <a href="aboutus.html" class="quick-links">About Us</a>
+            <a href="faq.html" class="quick-links">Faq's</a>
+        </div>
+        <div class="footer1">
+            <h2>Suppor Us</h2>
+            <p>Membership</p>
+            <p>Donations</p>
+            <p>Partnerships</p>
+            <p>Corparate</p>
+        </div>
+        </div>
+        <hr>
+        <div class="footer-container">
+        <div class="footer1">
+            <h3>Reach us</h3>
+            <p>+91 9876543210</p>
+            <p>(WhatsApp only)</p>
+            <p>orderfood@foodapp.com</p>
+        </div>
+        <div class="footer1">
+            <h2>Payment methods</h2>
+            <i class="fab fa-google-pay" style="font-size:40px;"></i>
+            <i class="fab fa-cc-visa" style="font-size:40px;"></i>
+            <i class="fab fa-cc-paypal" style="font-size:40px;"></i>
+            
+        </div>
+            <div class="footer1">
+            <h2>Address : </h2>
+            <p>Plot No. 3-64, Raja College Road, <br> 
+                5th Floor, Bobbili,<br> 
+                Near Gandhi Statue,Vizianagaram,<br> 
+                Andhra Pradesh-535558</p>
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiCuem-at-uRZQ5ft4t24y4-Y7WYTnRHdVjA&usqp=CAU" alt="resturant-image" class="image2">
+        </div>
+        <hr>
+                <div class="follow-us">
+                    <h2>FOLLOW US</h2>
+                    <i class="fab fa-facebook-square" style="font-size:40px;"></i>
+                    <i class="fab fa-instagram-square" style="font-size:40px;"></i>
+                    <i class="fab fa-twitter-square" style="font-size:40px;"></i>
+                </div>
+        </div>
+    </footer>
+        <script src="signin.js"></script>
+    </body>
+</html>

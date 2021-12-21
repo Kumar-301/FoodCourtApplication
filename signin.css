@@ -1,0 +1,124 @@
+body{
+    background-image:radial-gradient(gray,skyblue);
+    margin:0px;
+}
+table {
+    border:2px solid violet;
+    background-color:pink;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:10px 20px 30px black;
+}
+.bg-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:90vh;
+    
+    
+}
+[type='submit']{
+    background-color:green;
+    color:white;
+    font-size:15px;
+    border-radius:5px;
+    padding:5px;
+}
+[type='reset']{
+    background-color:red;
+    color:white;
+    font-size:15px;
+    border-radius:5px;
+    padding:5px;
+}
+
+.header3 {
+    box-shadow: 10px 20px 30px black; 
+    color:white;
+}
+ /*headr*/
+ header{
+    position:sticky;
+    top:0px;
+}
+.nav-container{
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.image1{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border:2px solid blue;
+}
+.heading {
+    margin-left: 10px;
+    font-family:'Courier New';
+    font-weight:bold;
+    font-size:30px;
+    font-style:italic;
+}
+.ol-container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style-type: none;
+}
+.a1{
+    margin: 10px;
+    color:white;
+    text-decoration: none;
+}
+.strtfretrail {
+    background-color: greenyellow;
+    border: 2px solid skyblue;
+    padding:10px;
+}
+
+/*footer*/
+.footer-container{
+    align-items:center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer-section{
+    background-color: rosybrown;
+    padding-top: 20px;
+    
+}
+.image2{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    opacity:0.5;
+}
+.footer1{
+    color: white;
+    font-weight: bold;
+}
+.follow-us{
+    text-align:center;
+    padding-bottom:10px;
+}
+.quick-links{
+    color:white;
+    text-decoration: none;
+    margin-bottom:10px;
+}
+.quick-footer{
+    color: white;
+    font-weight: bold;
+    display:flex;
+    flex-direction:column;
+}
+
+.first-label{
+    padding:10px;
+}

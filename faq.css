@@ -1,0 +1,104 @@
+.div-1{
+    padding:10px;
+    border:2px solid grey;
+    border-radius: 50px;
+    margin-bottom:15px;
+    background-color: white;
+}
+body{
+    margin:0px;
+}
+section{
+    padding:10px;
+    background-color:darkgray;
+}
+.div-1:hover{
+    background-color: cornsilk;
+    box-shadow:8px 10px 8px black;
+}
+/*headr*/
+header{
+    position:sticky;
+    top:0px;
+}
+.nav-container{
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.image1{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border:2px solid blue;
+}
+.heading {
+    margin-left: 10px;
+    font-family:'Courier New';
+    font-weight:bold;
+    font-size:30px;
+    font-style:italic;
+}
+.ol-container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style-type: none;
+}
+.a1{
+    margin: 10px;
+    color:white;
+    text-decoration: none;
+}
+.strtfretrail {
+    background-color: greenyellow;
+    border: 2px solid skyblue;
+    padding:10px;
+}
+
+/*footer*/
+.footer-container{
+    align-items:center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer-section{
+    background-color: rosybrown;
+    padding-top: 20px;
+    
+}
+.image2{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    opacity:0.5;
+}
+.footer1{
+    color: white;
+    font-weight: bold;
+}
+.follow-us{
+    text-align:center;
+    padding-bottom:10px;
+}
+.contact-details{
+    display:flex;
+    justify-content: flex-end;;
+}
+.quick-links{
+    color:white;
+    text-decoration: none;
+    margin-bottom:10px;
+}
+.quick-footer{
+    color: white;
+    font-weight: bold;
+    display:flex;
+    flex-direction:column;
+}

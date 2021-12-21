@@ -1,0 +1,158 @@
+body{
+    margin:0px;
+}
+.image-heading{
+    color:white;
+    font-size:50px;
+    text-align:center;
+
+}
+.image-section{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoi_TzZojhGJ1WtjpoWm6N1FSKQsvaZL-O2g&usqp=CAU");
+    height:300px;
+    
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.story-section{
+    padding:10px;
+    background-color:cornsilk;
+}
+.story-heading{
+    color:red;
+    font-size:24px;
+}
+.para-heading{
+    font-size:18px;
+}
+.food-service{
+    width: 65vw;
+    border-radius:100px;
+    margin-bottom:20px;
+    background-color: aqua;
+    display:flex;
+    
+    justify-content: space-between;
+    align-items:center;
+    padding:15px;
+}
+.food-service-image{
+    height:140px;
+    width:140px;
+    border-radius:70px;
+    
+}
+.heading-about{
+    width:40vw;
+} 
+.about-section {
+    display:flex;
+    padding:5px;
+
+}
+.first-image {
+    height:100vh;
+    width:30vw;
+    
+    border-radius:10px;
+    
+}
+.first-container {
+    height: 100vh;
+    padding-left:10px;
+}
+.organic-image {
+    height:200px;
+    width:200px;
+}
+.oraganic-section{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.organic-des {
+    
+    width:50vw;
+}
+/*footer*/
+.footer-container{
+    align-items:center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer-section{
+    background-color: rosybrown;
+    padding-top: 20px;
+    
+}
+.image2{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    opacity:0.5;
+}
+.footer1{
+    color: white;
+    font-weight: bold;
+}
+.follow-us{
+    text-align:center;
+    padding-bottom:10px;
+}
+header{
+    position:sticky;
+    top:0px;
+}
+.nav-container{
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.image1{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border:2px solid blue;
+}
+.heading {
+    margin-left: 10px;
+    font-family:'Courier New';
+    font-weight:bold;
+    font-size:30px;
+    font-style:italic;
+}
+.ol-container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style-type: none;
+}
+.a1{
+    margin: 10px;
+    color:white;
+    text-decoration: none;
+}
+.strtfretrail {
+    background-color: greenyellow;
+    border: 2px solid skyblue;
+    padding:10px;
+}
+.quick-links{
+    color:white;
+    text-decoration: none;
+    margin-bottom:10px;
+}
+.quick-footer{
+    color: white;
+    font-weight: bold;
+    display:flex;
+    flex-direction:column;
+}
